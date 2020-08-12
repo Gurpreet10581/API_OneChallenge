@@ -1,23 +1,41 @@
-body{
-   background-image: url("./asset/BackGround\ Img.jpg");
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   text-align: center;
+body {
+  background-image: url("./asset/BackGround\ Img.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
 }
-#section{
+#section {
   margin: auto;
   border: solid black;
-   text-align: center;
+  text-align: center;
 }
 
-h1{
-   text-shadow: 2px 2px 5px red;
+h1 {
+  text-shadow: 2px 2px 5px red;
+  box-shadow: 50px 50px 90px black;
+  text-decoration: underline rgb(231, 172, 7);
 }
-h2{
-   font-family: cursive;
-   text-shadow: 2px 2px 5px orange;
-   text-decoration: underline overline wavy red;
+h2 {
+  font-family: cursive;
+  text-shadow: 2px 2px 5px orange;
+  /* text-decoration: underline overline wavy red; */
 }
 
-p{
-   font-style: italic;
+p {
+  font-style: italic;
+  text-shadow: 2px 2px 5px orange;
 }
+h3 {
+  text-shadow: 2px 2px 5px orange;
+  font-family: sans-serif;
+}
+h4 {
+  text-shadow: 2px 2px 5px orange;
+}
+.content {
+  margin: 2em;
+  border: 5px solid white;
+  background-color: black;
+  box-shadow: 10px 10px 50px black;
+  color: white;
+}
+

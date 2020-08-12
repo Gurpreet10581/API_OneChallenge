@@ -22,7 +22,7 @@ function displayMovies(movieData) {
     const releaseInfo = document.createElement("h4");
     const discriptionInfo = document.createElement("p");
 
-    //connection the above variable/tags 
+    //connection the above variable/tags
     titleInfo.textContent = element.title;
     directorInfo.textContent = element.director;
     releaseInfo.textContent = element.release_date;
@@ -33,7 +33,5 @@ function displayMovies(movieData) {
     flashcard.appendChild(directorInfo);
     flashcard.appendChild(releaseInfo);
     flashcard.appendChild(discriptionInfo);
-
-
   });
 }
