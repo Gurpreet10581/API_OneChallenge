@@ -24,9 +24,9 @@ function displayMovies(movieData) {
 
     //connection the above variable/tags
     titleInfo.textContent = element.title;
-    directorInfo.textContent = element.director;
-    releaseInfo.textContent = element.release_date;
-    discriptionInfo.textContent = element.description;
+    directorInfo.textContent = 'Director:' + ' '+ element.director;
+    releaseInfo.textContent = 'Released in:' + ' '+ element.release_date;
+    discriptionInfo.textContent = 'Description:'+ ' ' + element.description;
 
     sectionOne.appendChild(flashcard);
     flashcard.appendChild(titleInfo);

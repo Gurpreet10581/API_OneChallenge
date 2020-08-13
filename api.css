@@ -3,10 +3,12 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
 }
-#section {
+.section {
   margin: auto;
   border: solid black;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 h1 {
